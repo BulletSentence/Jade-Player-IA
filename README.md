@@ -9,7 +9,11 @@
  
 * Adicione a Bibilhoteca Jade.jar
  
-* Em Main class use: jade.Boot
+* Adicione a Bibilhoteca commons-codec-1.3.jar
+
+* Os arquivos Jar estão na pasta raiz do projeto
+
+<br>
 
 </details>
  
@@ -25,6 +29,8 @@
 
 ![one](https://user-images.githubusercontent.com/37451620/94922544-cca37c00-0490-11eb-9204-f573ec68f493.JPG)
 
+<br<
+
 </details>
 
 <details>
@@ -34,6 +40,8 @@
 * Abra a classe Jogador"
  
 * Execute o método Main
+
+<br>
 
 </details>
 
