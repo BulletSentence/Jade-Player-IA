@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36472aff-f4f9-4433-8cf9-6ffbb5b667e2" name="Default Changelist" comment="" />
+    <list default="true" id="36472aff-f4f9-4433-8cf9-6ffbb5b667e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogador.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iHHAF9VNoIYfGREkm9VtjOj5ij" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jade.jar!/" />
@@ -96,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601557451407</updated>
       <workItem from="1601557456704" duration="4103000" />
-      <workItem from="1601636895259" duration="2629000" />
+      <workItem from="1601636895259" duration="3047000" />
     </task>
     <servers />
   </component>
@@ -116,22 +124,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="394" y="127" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1601558130833" />
-    <state width="1323" height="84" key="GridCell.Tab.0.bottom" timestamp="1601639706916">
+    <state width="1323" height="577" key="GridCell.Tab.0.bottom" timestamp="1601640147560">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="84" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601639706916" />
-    <state width="1323" height="84" key="GridCell.Tab.0.center" timestamp="1601639706916">
+    <state width="1323" height="577" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601640147560" />
+    <state width="1323" height="577" key="GridCell.Tab.0.center" timestamp="1601640147559">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="84" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601639706916" />
-    <state width="1323" height="84" key="GridCell.Tab.0.left" timestamp="1601639706916">
+    <state width="1323" height="577" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601640147559" />
+    <state width="1323" height="577" key="GridCell.Tab.0.left" timestamp="1601640147559">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="84" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601639706916" />
-    <state width="1323" height="84" key="GridCell.Tab.0.right" timestamp="1601639706916">
+    <state width="1323" height="577" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601640147559" />
+    <state width="1323" height="577" key="GridCell.Tab.0.right" timestamp="1601640147560">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="84" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601639706916" />
+    <state width="1323" height="577" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601640147560" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1601558135123">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

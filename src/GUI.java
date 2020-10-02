@@ -20,7 +20,7 @@ public class GUI{
 	
 	public class Move 
     { 
-        int row, col; 
+        int linha, coluna;
     }
       
    boolean temMovimentosExistentes(String board[][]) {
@@ -125,42 +125,42 @@ public class GUI{
         return 0; 
     } 
       
-    int scoreMinEMax(String board[][], int depth, boolean isMax)
+    int scoreMinEMax(String tabuleiro[][], int depth, boolean ehMaximo)
     { 
-        int score = avaliar(board);
+        int score = avaliar(tabuleiro);
         if (score == 10) 
             return score;
 
         if (score == -10) 
             return score;
 
-        if (temMovimentosExistentes(board)==false)
+        if (temMovimentosExistentes(tabuleiro)==false)
             return 0; 
       
-        if (isMax) 
+        if (ehMaximo)
         {
-            int best = -1000;
+            int melhor = -1000;
             // Colunas transversos
             for (int i = 0; i<3; i++) 
             { 
                 for (int j = 0; j<3; j++) 
                 { 
                     // Verifica se está vazio
-                    if (board[i][j].equals(" ")) 
+                    if (tabuleiro[i][j].equals(" "))
                     { 
                         // Move a peça
-                        board[i][j] = jogador;
-                        best = Math.max( best, scoreMinEMax(board, 0,!isMax) );
-                        board[i][j] = " "; 
+                        tabuleiro[i][j] = jogador;
+                        melhor = Math.max( melhor, scoreMinEMax(tabuleiro, 0,!ehMaximo) );
+                        tabuleiro[i][j] = " ";
                     } 
                 } 
             } 
-            return best-depth; 
+            return melhor-depth;
         } 
       
         else
         { 
-            int best = 1000; 
+            int melhor = 1000;
       
             // Faz a reversa
             for (int i = 0; i<3; i++) 
@@ -168,24 +168,24 @@ public class GUI{
                 for (int j = 0; j<3; j++) 
                 { 
                     // Verifica se tá vazio
-                    if (board[i][j].equals(" ")) 
+                    if (tabuleiro[i][j].equals(" "))
                     { 
                         // Faz o movimento
-                        board[i][j] = computador;
-                        best = Math.min(best, scoreMinEMax(board,0, !isMax));
-                        board[i][j] = " "; 
+                        tabuleiro[i][j] = computador;
+                        melhor = Math.min(melhor, scoreMinEMax(tabuleiro,0, !ehMaximo));
+                        tabuleiro[i][j] = " ";
                     } 
                 } 
             } 
-            return best+depth; 
+            return melhor+depth;
         } 
     } 
       
     Move enconetraMelhorMovimento(String board[][], boolean ismax) { 
-    	    int bestVal = -1000; 
-    	    Move bestMove = new Move(); 
-    	    bestMove.row = -1; 
-    	    bestMove.col = -1; 
+    	    int melhorScore = -1000;
+    	    Move melhorMovimento = new Move();
+    	    melhorMovimento.linha = -1;
+    	    melhorMovimento.coluna = -1;
         for (int i = 0; i<3; i++) 
         { 
             for (int j = 0; j<3; j++) 
@@ -198,16 +198,16 @@ public class GUI{
                     int moveVal = scoreMinEMax(board,0, ismax);
       
                     board[i][j] = " "; 
-                    if (moveVal > bestVal) 
+                    if (moveVal > melhorScore)
                     { 
-                        bestMove.row = i; 
-                        bestMove.col = j; 
-                        bestVal = moveVal; 
+                        melhorMovimento.linha = i;
+                        melhorMovimento.coluna = j;
+                        melhorScore = moveVal;
                     } 
                 } 
             } 
         }
-        return bestMove; 
+        return melhorMovimento;
     } 
      
     public void printboard(String[][] b) {
@@ -219,7 +219,7 @@ public class GUI{
     	}
     }
     
-    public void boardSet(String[][] b) {
+    public void criaTabuleiro(String[][] b) {
     	for(int i=0;i<3;i++) {
     		for(int j=0;j<3;j++) {
     			b[i][j] = " ";
@@ -228,7 +228,7 @@ public class GUI{
     }
     
     
-    public void disAbleAll(JButton[][] b) {
+    public void finalizaJogo(JButton[][] b) {
     	for(int i=0;i<3;i++) {
     		for(int j=0;j<3;j++) {
     			b[i][j].setEnabled(false);
@@ -236,7 +236,7 @@ public class GUI{
     	}
     }
     
-    public void enAbleAll(JButton[][] b) {
+    public void iniciaJogo(JButton[][] b) {
     	for(int i=0;i<3;i++) {
     		for(int j=0;j<3;j++) {
     			b[i][j].setEnabled(true);
@@ -256,7 +256,7 @@ public class GUI{
 			lable = new JLabel("");
 			lable.setBounds(70, -20, 260, 110);
 
-		//adding boxes
+		//adiciona as boxes
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
 				boxes[i][j] = new JButton(" ");
@@ -298,7 +298,7 @@ public class GUI{
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		tabuleiro = new String[3][3];
-		boardSet(tabuleiro);
+		criaTabuleiro(tabuleiro);
 	   }
 	}
 }

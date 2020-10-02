@@ -22,20 +22,20 @@ public class Jogador extends Agent{
 				   if(g.computador=="O") {
 					   if(g.xGanhou(g.tabuleiro)) {
 						   g.lable.setText("Você Ganhou");
-						   g.disAbleAll(g.boxes);
+						   g.finalizaJogo(g.boxes);
 						   g.turn=" ";g.jogador = " ";
 					   }
 
 					   if(g.turn=="computador") {
 					   g.move = g.enconetraMelhorMovimento(g.tabuleiro,false);
-					   g.tabuleiro[g.move.row][g.move.col]="O";
-					   g.boxes[g.move.row][g.move.col].setText("O");
+					   g.tabuleiro[g.move.linha][g.move.coluna]="O";
+					   g.boxes[g.move.linha][g.move.coluna].setText("O");
 					   g.turn = "jogador";
 					   }
 
 					   if(g.oGanhou(g.tabuleiro)) {
 						   g.lable.setText("Você Perdeu");
-						   g.disAbleAll(g.boxes);
+						   g.finalizaJogo(g.boxes);
 						   g.turn=" ";g.jogador=" ";
 					   }
 				   }
@@ -43,19 +43,19 @@ public class Jogador extends Agent{
 				   if(g.computador=="X") {
 					   if(g.oGanhou(g.tabuleiro)) {
 						   g.lable.setText("Você Ganhou");
-						   g.disAbleAll(g.boxes);
+						   g.finalizaJogo(g.boxes);
 						   g.turn=" ";g.jogador=" ";
 					   }
 
 					   if(g.turn=="computador") {
 					   g.move = g.enconetraMelhorMovimento(g.tabuleiro,true);
-					   g.tabuleiro[g.move.row][g.move.col]="X";
-					   g.boxes[g.move.row][g.move.col].setText("X");
+					   g.tabuleiro[g.move.linha][g.move.coluna]="X";
+					   g.boxes[g.move.linha][g.move.coluna].setText("X");
 					   g.turn = "jogador";
 
 					   if(g.xGanhou(g.tabuleiro)) {
 						   g.lable.setText("Você Perdeu");
-						   g.disAbleAll(g.boxes);
+						   g.finalizaJogo(g.boxes);
 						   g.turn=" ";g.jogador = " ";
 					   } 
 					 }
