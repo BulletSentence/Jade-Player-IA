@@ -190,10 +190,10 @@ public class GUI{
         { 
             for (int j = 0; j<3; j++) 
             { 
-                // Check if cell is empty 
+                // Vê se ta vazio
                 if (board[i][j].equals(" ")) 
                 { 
-                    // Make the move 
+                    // Faz o movimeto
                     board[i][j] = jogador; 
                     int moveVal = scoreMinEMax(board,0, ismax);
       
