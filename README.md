@@ -59,4 +59,7 @@
 
 ![image](https://user-images.githubusercontent.com/37451620/94923318-0923a780-0492-11eb-8f7f-a39489a7eb28.png)
 
+* E por fim está pronto
+
+![image](https://user-images.githubusercontent.com/37451620/94923557-6c153e80-0492-11eb-9ec8-dbf2c5471508.png)
 
