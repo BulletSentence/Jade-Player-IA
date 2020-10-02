@@ -2,6 +2,17 @@
  Um sistema MultiAgentes que joga com você
  
  # Como Configurar
+ 
+ <details>
+<summary>Adicionando Bibilhotecas</summary>
+<br>
+ 
+* Adicione a Bibilhoteca Jade.jar
+ 
+* Em Main class use: jade.Boot
+
+</details>
+ 
 <details>
 <summary>Rodar no InteliJ IDE</summary>
 <br>
