@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36472aff-f4f9-4433-8cf9-6ffbb5b667e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jade/Jogador$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jade/Jogador$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <recent name="C:\CODE\JAVA\Jade\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jogador">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Jogador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Jogador" />
       <module name="Jade" />
@@ -62,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jade.Boot" />
       <module name="Jade" />
       <option name="PROGRAM_PARAMETERS" value="-gui" />
@@ -105,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601557451407</updated>
       <workItem from="1601557456704" duration="4103000" />
-      <workItem from="1601636895259" duration="3575000" />
+      <workItem from="1601636895259" duration="4576000" />
     </task>
     <servers />
   </component>
@@ -117,34 +116,34 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="43" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1601557809496" />
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601558167696">
+    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601641446336">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1601558167696" />
+    <state x="137" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1601641446336" />
     <state x="394" y="127" key="FileChooserDialogImpl" timestamp="1601558130833">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="394" y="127" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1601558130833" />
-    <state width="1323" height="577" key="GridCell.Tab.0.bottom" timestamp="1601640618254">
+    <state width="1323" height="540" key="GridCell.Tab.0.bottom" timestamp="1601641518859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="577" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601640618254" />
-    <state width="1323" height="577" key="GridCell.Tab.0.center" timestamp="1601640618254">
+    <state width="1323" height="540" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601641518859" />
+    <state width="1323" height="540" key="GridCell.Tab.0.center" timestamp="1601641518859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="577" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601640618254" />
-    <state width="1323" height="577" key="GridCell.Tab.0.left" timestamp="1601640618253">
+    <state width="1323" height="540" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1601641518859" />
+    <state width="1323" height="540" key="GridCell.Tab.0.left" timestamp="1601641518859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="577" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601640618253" />
-    <state width="1323" height="577" key="GridCell.Tab.0.right" timestamp="1601640618254">
+    <state width="1323" height="540" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1601641518859" />
+    <state width="1323" height="540" key="GridCell.Tab.0.right" timestamp="1601641518859">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="577" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601640618254" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1601558135123">
+    <state width="1323" height="540" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1601641518859" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1601641379813">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601558135123" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1601641379813" />
     <state x="346" y="89" key="search.everywhere.popup" timestamp="1601638041161">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
