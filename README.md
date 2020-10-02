@@ -51,5 +51,12 @@
 
 ![image](https://user-images.githubusercontent.com/37451620/94922740-2310ba80-0491-11eb-8917-99efac1a6895.png)
 
+* Vá para o Main-Container e com o botão direito selecione START NEW AGENT
+
+![image](https://user-images.githubusercontent.com/37451620/94923195-d4afeb80-0491-11eb-8237-9decad6c79bc.png)
+
+* Em Agent Name escolha um nome qualquer (Jogador) e em Agent Class digite: Jogador, e por fim em argumentos digite: -g
+
+![image](https://user-images.githubusercontent.com/37451620/94923318-0923a780-0492-11eb-8f7f-a39489a7eb28.png)
 
 
