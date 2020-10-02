@@ -12,7 +12,6 @@ public class Jogador extends Agent{
 			}
 
 	protected void setup() {
-		System.out.println("Aplicativo Iniciado");
 		GUI g = new GUI();
 		addBehaviour(new  TickerBehaviour(this,500) {
 
@@ -39,29 +38,8 @@ public class Jogador extends Agent{
 						   g.turn=" ";g.jogador=" ";
 					   }
 				   }
-				   
-				   if(g.computador=="X") {
-					   if(g.oGanhou(g.tabuleiro)) {
-						   g.lable.setText("Você Ganhou");
-						   g.finalizaJogo(g.boxes);
-						   g.turn=" ";g.jogador=" ";
-					   }
-
-					   if(g.turn=="computador") {
-					   g.move = g.enconetraMelhorMovimento(g.tabuleiro,true);
-					   g.tabuleiro[g.move.linha][g.move.coluna]="X";
-					   g.boxes[g.move.linha][g.move.coluna].setText("X");
-					   g.turn = "jogador";
-
-					   if(g.xGanhou(g.tabuleiro)) {
-						   g.lable.setText("Você Perdeu");
-						   g.finalizaJogo(g.boxes);
-						   g.turn=" ";g.jogador = " ";
-					   } 
-					 }
-				   }
 				}
 			}
-		});	
+		});
 	}
 }

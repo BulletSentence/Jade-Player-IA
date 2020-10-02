@@ -150,7 +150,7 @@ public class GUI{
                     { 
                         // Move a peça
                         tabuleiro[i][j] = jogador;
-                        melhor = Math.max( melhor, scoreMinEMax(tabuleiro, 0,!ehMaximo) );
+                        melhor = Math.max( melhor, scoreMinEMax(tabuleiro, 0, !ehMaximo) );
                         tabuleiro[i][j] = " ";
                     } 
                 } 
@@ -262,7 +262,7 @@ public class GUI{
 				boxes[i][j] = new JButton(" ");
 				boxes[i][j].setBounds((j + 1) * 50, (i + 1) * 50, 50, 50);
 				boxes[i][j].setBackground(Color.WHITE);
-				boxes[i][j].setForeground(Color.GREEN);
+				boxes[i][j].setForeground(Color.GRAY);
                 boxes[i][j].setFont(new Font("Arial", Font.PLAIN, 20));
 				final Integer in = new Integer(i);
 				final Integer jn = new Integer(j);
